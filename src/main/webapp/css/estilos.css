@@ -1,0 +1,170 @@
+/* Estilos del sistema de matrícula - nivel inicial */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #1c2744;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1c2744;
+    padding: 15px 30px;
+}
+
+header h1 {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+nav a {
+    color: #ffc83d;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #2f6fed;
+}
+
+/* Cuadros de colores de las aulas */
+.aulas {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.aula {
+    flex: 1;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #1c2744;
+}
+
+.amarilla { background-color: #fff4d1; }
+.azul { background-color: #e3ecff; }
+.verde { background-color: #d9f4e8; }
+
+/* Formulario */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccd3e0;
+    max-width: 400px;
+}
+
+input[type=date] {
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1c2744;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2f6fed;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccd3e0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1c2744;
+    color: white;
+}
+
+/* Mensajes del resultado */
+.mensaje {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1c2744;
+    margin-bottom: 20px;
+}
+
+.ok { background-color: #d9f4e8; }
+.lleno { background-color: #fff4d1; }
+.error { background-color: #fde4e4; }
+
+footer {
+    background-color: #1c2744;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+/* ===== Estilos agregados para el avance 2 ===== */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=number], select {
+    padding: 8px;
+    margin: 6px 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 12px;
+}
+
+form.enlinea {
+    display: inline;
+    padding: 0;
+    border: none;
+    background: none;
+    max-width: none;
+}
+
+form.enlinea button {
+    margin-top: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-peligro { background-color: #c93a3a; }
+.btn-peligro:hover { background-color: #8f2424; }
+
+.tabla-scroll { overflow-x: auto; margin-bottom: 20px; }
+
+.estado-activa { color: #1fa971; font-weight: bold; }
+.estado-anulada { color: #c93a3a; font-weight: bold; }

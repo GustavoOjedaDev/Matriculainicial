@@ -1,0 +1,27 @@
+# Compilación y artefactos temporales de Maven
+target/
+*.war
+*.jar
+*.class
+
+# Configuraciones y carpetas privadas de NetBeans
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Configuraciones de otros IDEs (por si tus compañeros usan IntelliJ o VS Code)
+.idea/
+*.iml
+out/
+.vscode/
+.settings/
+.project
+.classpath
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.log
